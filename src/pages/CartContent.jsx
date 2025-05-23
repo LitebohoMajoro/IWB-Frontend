@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const initialProducts = [
-  { id: 0, name: "Secure Sockets Layer", price: 160, stock: 5, img: "img/Secure sockets.jpg", rating: "⭐⭐⭐⭐⭐" },
-  { id: 1, name: "Natural Language Processing", price: 300, stock: 4, img: "img/NLP.jpg", rating: "⭐⭐⭐☆☆" },
-  { id: 2, name: "CODE", price: 250, stock: 4, img: "img/LOGO.jpg", rating: "⭐⭐⭐⭐⭐" },
-  { id: 3, name: "Recoverit", price: 50, stock: 6, img: "img/recoverit.png", rating: "⭐⭐⭐⭐☆" },
-  { id: 4, name: "DBan", price: 95, stock: 5, img: "img/dban.png", rating: "⭐⭐⭐☆☆" },
-  { id: 5, name: "Easeus", price: 100, stock: 6, img: "img/easeus.png", rating: "⭐⭐⭐☆☆" },
-  { id: 6, name: "PC Optimizer", price: 150, stock: 7, img: "img/PC Optimizer.jpeg", rating: "⭐⭐⭐⭐⭐" },
-  { id: 7, name: "Malware Defender", price: 200, stock: 5, img: "img/Malware Defender.jpeg", rating: "⭐⭐⭐⭐⭐" },
+  { id: 0, name: "Secure Sockets Layer", price: 160, stock: 5, img: "img/Secure sockets.webp", rating: "⭐⭐⭐⭐⭐" },
+  { id: 1, name: "Natural Language Processing", price: 300, stock: 4, img: "img/NLP.webp", rating: "⭐⭐⭐☆☆" },
+  { id: 2, name: "CODE", price: 250, stock: 4, img: "img/LOGO.webp", rating: "⭐⭐⭐⭐⭐" },
+  { id: 3, name: "Recoverit", price: 50, stock: 6, img: "img/recoverit.webp", rating: "⭐⭐⭐⭐☆" },
+  { id: 4, name: "DBan", price: 95, stock: 5, img: "img/dban.webp", rating: "⭐⭐⭐☆☆" },
+  { id: 5, name: "Easeus", price: 100, stock: 6, img: "img/easeus.webp", rating: "⭐⭐⭐☆☆" },
+  { id: 6, name: "PC Optimizer", price: 150, stock: 7, img: "img/PC Optimizer.webp", rating: "⭐⭐⭐⭐⭐" },
+  { id: 7, name: "Malware Defender", price: 200, stock: 5, img: "img/Malware Defender.webp", rating: "⭐⭐⭐⭐⭐" },
 ];
 
 export default function CartContent() {

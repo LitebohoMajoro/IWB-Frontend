@@ -16,7 +16,7 @@ function Services() {
           <div className="service-item">
             <h3>RAM Recycling</h3>
             <p>We extract and repurpose reusable materials from old RAM chips.</p>
-            <img src="/img/ram.webp" alt="RAM Recycling" />
+            <img src="/img/RAM.webp" alt="RAM Recycling" />
           </div>
           <div className="service-item">
             <h3>Hard Drive Destruction</h3>
