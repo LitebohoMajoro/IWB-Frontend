@@ -1,0 +1,99 @@
+.payment-container {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #060149;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.payment-container h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #00ffc3;
+  margin-bottom: 1rem;
+}
+
+.payment-container h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 1.2rem;
+}
+
+.payment-container h3 {
+  font-size: 1rem;
+  color: #00ffc3;
+}
+
+.payment-container .user-info,
+.payment-container .order-summary,
+.payment-container .payment-section {
+  margin-bottom: 1rem;
+}
+
+.payment-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.payment-container li {
+  margin: 4px 0;
+  color: #ccc;
+}
+
+.payment-container select {
+  width: 100%;
+  padding: 8px;
+  margin: 0.5rem 0;
+  border: 1px solid #00ffc3;
+  border-radius: 6px;
+  background-color: #1a1a3d;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.payment-container .payment-methods {
+  margin-top: 0.5rem;
+}
+
+.payment-container .method-slide input {
+  margin-top: 8px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #00ffc3;
+  background-color: #1a1a3d;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.payment-container .method-slide input::placeholder {
+  color: #aaa;
+}
+
+.payment-container .note {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-top: 0.4rem;
+}
+
+.payment-container .confirm-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ffc3;
+  color: #060149;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.payment-container .confirm-btn:hover {
+  background-color: #00d3a8;
+}
