@@ -11,25 +11,25 @@ function Software() {
           <div className="software-tool">
             <h3>Data Recovery Pro</h3>
             <p>Powerful tool for retrieving lost or deleted files from various storage devices.</p>
-            <img src="/img/data-recovery.jpg" alt="Data Recovery Pro" />
+            <img src="/img/data-recovery.webp" alt="Data Recovery Pro" />
           </div>
 
           <div className="software-tool">
             <h3>SecureWipe</h3>
             <p>Advanced software for secure deletion of sensitive data, compliant with global standards.</p>
-            <img src="/img/secure-wipe.jpg" alt="SecureWipe" />
+            <img src="/img/secure-wipe.webp" alt="SecureWipe" />
           </div>
 
           <div className="software-tool">
             <h3>System Optimizer</h3>
             <p>Boost performance and clean up redundant files to keep your systems fast and efficient.</p>
-            <img src="/img/system-optimizer.jpg" alt="System Optimizer" />
+            <img src="/img/system-optimizer.webp" alt="System Optimizer" />
           </div>
 
           <div className="software-tool">
             <h3>Drive Cloner</h3>
             <p>Clone your entire hard drive quickly and safely for backups or transfers.</p>
-            <img src="/img/macrium software.jpg" alt="Drive Cloner" />
+            <img src="/img/macrium software.webp" alt="Drive Cloner" />
           </div>
         </section>
       </main>
